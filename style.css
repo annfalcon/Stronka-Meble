@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Fredoka+One&family=Merienda:wght@300;600&display=swap');
+
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.header{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    height: 20vh;
+    width: 100vw;
+    background-position:center center;
+    background-size: cover;
+    background-image: url(./images/header.jpg);
+    text-transform: capitalize;
+}
+
+h1{
+    color: rgb(102, 10, 10);
+    text-align: center;
+    line-height: 20vh;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    color: rgb(102, 10, 10);
+    
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(223, 215, 208);
+}
+
+body{
+    background-color: rgb(223, 215, 208);
+}
+
+img{
+    width: 20vw;
+    border-radius: 10px;
+    margin: 20px;   
+  
+}
+
+img:hover{
+    scale: 1.1;
+}
+
+.container{
+    width: 80vw;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* align-content: flex-start; */
+    
+}
+
+.container div{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: grab;
+    text-align: center;
+    border: 2px solid rgb(142, 92, 59);
+    margin: 10px;
+    
+   
+    /* justify-content: flex-start;
+    align-content: flex-start; */
+}
+
+i{
+    color:  rgb(102, 10, 10);
+    /* padding-top: 20px; */
+    font-size: 40px;
+
+}
+
+i:hover{
+    color: rgb(46, 7, 7);
+}
+
+nav{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: rgb(223, 215, 208);
+    
+}
+
+li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-left: 40px;
+    padding: 10px 15px;
+    
+}
+
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  rgb(102, 10, 10);
+    font-family: 'Aboreto', cursive;
+    font-weight: bolder;
+     
+}
+
+li a:hover{
+    color: rgb(46, 7, 7);
+    }
+
+p{
+    margin-bottom: 10px;
+    color: rgb(102, 10, 10);
+    
+}
+.add{
+    padding: 15px 10px;
+    border: 3px solid rgb(142, 92, 59);
+    border-radius: 10px;
+    text-decoration: none;
+    color:  rgb(102, 10, 10);
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+    /* font-size: 40px; */
+    /* width: 100px;
+    height: 100px; */
+}
+
+.add:hover{
+    color: rgb(46, 7, 7);
+}
+
+footer{
+    color:  rgb(102, 10, 10);
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color:  rgb(102, 10, 10);
+}
+
+footer div{
+    width: 80%;
+    margin: 0 auto;   
+}
