@@ -351,3 +351,19 @@ article p {
 .img-bathtray2 {
   width: 700px;
 }
+
+@media only screen and (max-width: 420px){
+
+  nav li {
+    display: block;
+  }
+
+  .icon {
+    display: none !important;
+  }
+  .header {
+    font-size: 2 rem;
+
+  }
+
+}
